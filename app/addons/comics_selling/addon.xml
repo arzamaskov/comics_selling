@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>comics_selling</id>
+    <version>1.0</version>
+    <default_language>ru</default_language>
+    <priority>1000</priority>
+    <status>active</status>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+</addon>
