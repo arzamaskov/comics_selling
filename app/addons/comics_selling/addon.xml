@@ -6,4 +6,14 @@
     <priority>1000</priority>
     <status>active</status>
     <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+
+    <queries>
+        <item>ALTER TABLE `?:products` ADD `comics_selling_art_by` varchar(32)</item>
+        <item>ALTER TABLE `?:products` ADD `comics_selling_written_by` varchar(255)</item>
+        <item>ALTER TABLE `?:products` ADD `comics_selling_release_date` int(11)</item>
+
+        <item for="uninstall">ALTER TABLE  `?:products` DROP `comics_selling_art_by`</item>    
+        <item for="uninstall">ALTER TABLE  `?:products` DROP `comics_selling_written_by`</item>
+        <item for="uninstall">ALTER TABLE  `?:products` DROP `comics_selling_release_date`</item>
+    </queries>
 </addon>

@@ -4,8 +4,8 @@
     <div class="control-group">
         <label class="control-label" for="comics_selling_art_by">{__("comics_selling.art_by")}</label>
         <div class="controls">
-            <input type="text" id="comics_selling_art_by" name="products[comics_selling_art_by]"
-                value="{$product_data.comics_selling_art_by|default:""}" class="input-large" size="10" />
+            <input type="text" id="comics_selling_art_by" name="product_data[comics_selling_art_by]"
+                value="{$product_data.comics_selling_art_by}" class="input-large" size="10" />
         </div>
     </div>
 
