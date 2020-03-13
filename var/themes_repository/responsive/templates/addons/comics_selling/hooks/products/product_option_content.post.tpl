@@ -15,6 +15,6 @@
 {if $product.comics_selling_release_date}
 <div class="ty-control-group">
 	<label class="ty-control-group__label" id="comics_selling_release_date">{__("comics_selling.release_date")}:</label>
-	<span class="ty-control-group__item" id="comics_selling_release_date">{$product.comics_selling_release_date}</span>
+	<span class="ty-control-group__item" id="comics_selling_release_date">{$product.comics_selling_release_date|date_format:"`$settings.Appearance.date_format`"}</span>
 </div>
 {/if}
