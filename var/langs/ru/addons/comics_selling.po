@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::comics_selling"
+msgid "Comics selling"
+msgstr "Продажа комиксов"
+
+msgctxt "Addons::description::comics_selling"
+msgid "Add-on for more convenient selling comics that adds additional fields to product page"
+msgstr "Модуль для более удобной продажи комиксов, добавляющий дополнительные поля на страницу товара"
+
+msgctxt "Languages::comics_selling.title"
+msgid "Extra fields for comics selling"
+msgstr "Дополнительные поля для продажи комиксов"
+
+msgctxt "Languages::comics_selling.art_by"
+msgid "Art by"
+msgstr "Художник"
+
+msgctxt "Languages::comics_selling.written_by"
+msgid "Written by"
+msgstr "Автор"
+
+msgctxt "Languages::comics_selling.release_date"
+msgid "Release date"
+msgstr "Дата выпуска"
